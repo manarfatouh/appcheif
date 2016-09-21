@@ -340,3 +340,33 @@ body#afui .splt {
 @media all {
   
 }
+@media all {
+  #afui .wrapping-col > .d-margins,
+  #afui .wrapping-col > .afScrollPanel > .d-margins {
+    margin-left: 4px;
+    margin-right: 5px;
+  }
+  #afui .wrapping-col > .d-margins,
+  #afui .wrapping-col > .afScrollPanel > .d-margins {
+    margin-left: 4px;
+    margin-right: 5px;
+  }
+  #afui .d-margins {
+    margin-top: 5px;
+    margin-bottom: 6px;
+  }
+}
+.left-receptacle {
+  float: left;
+}
+.right-receptacle {
+  float: right;
+}
+[data-uib="media/text"] p:first-of-type {
+  margin-top: 0px;
+}
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
